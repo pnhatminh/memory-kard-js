@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+}
+
+.memory-card{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memory-game{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#size-select{
+    width: 150px;
+    height: 50px;
+    text-align-last:center;
+}
+
+#start-button{
+    width: 150px;
+    height: 50px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#totalMove {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#timer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#warning {
+    width: 150px;
+    height: 50px;
+    text-align-last:center;
+}
+
+@keyframes flipCard {
+    from {background-color: black;}
+    to {background-color: transparent;}
+}
+
+@keyframes unflipCard {
+    from {background-color: transparent;}
+    to {background-color: black;}
+}
+
+@keyframes disappears{
+    from {visibility: visible}
+    to {visibility: hidden}
+}
+

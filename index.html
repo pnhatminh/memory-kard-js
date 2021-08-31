@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flipped Kard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div id="container">
+        <h1>Memory Kard game</h1>
+        <select id="size-select" onchange="onSizeSelected(this.value)">
+            <option value="2">4 x 4</option>
+            <option value="8">8 x 8</option>
+            <option value="12">12 x 12</option>
+        </select>
+        <button id="start-button" onclick="onStartButtonClicked()">Start the game</button>
+    </div>
+</body>
+
+</html>
